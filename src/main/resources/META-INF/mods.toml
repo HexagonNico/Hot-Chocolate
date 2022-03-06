@@ -1,0 +1,30 @@
+
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+	modId="hotchocolate"
+	version="1.0"
+	displayName="Hot Chocolate"
+	#updateJSONURL="https://change.me.example.invalid/updates.json"
+	#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+	logoFile="hotchocolate.png"
+	credits="HexagonNico"
+	authors="HexagonNico"
+	description="This mod adds hot chocolate because why not"
+
+[[dependencies.examplemod]]
+	modId="forge"
+	mandatory=true
+	versionRange="[39,)"
+	ordering="NONE"
+	side="BOTH"
+
+[[dependencies.examplemod]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.18.1,1.19)"
+	ordering="NONE"
+	side="BOTH"
