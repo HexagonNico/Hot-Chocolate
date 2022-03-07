@@ -1,5 +1,6 @@
 package hexagonnico.hotchocolate;
 
+import hexagonnico.hotchocolate.registry.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,6 +17,7 @@ public final class HotChocolate {
 		IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		eventBus.addListener(this::commonSetup);
 		eventBus.addListener(this::clientSetup);
+		ModItems.REGISTER.register(eventBus);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
