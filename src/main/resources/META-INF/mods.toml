@@ -1,7 +1,7 @@
 
 modLoader="javafml"
 loaderVersion="[39,)"
-license="All rights reserved"
+license="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
 
 [[mods]]
@@ -15,14 +15,14 @@ license="All rights reserved"
 	authors="HexagonNico"
 	description="This mod adds hot chocolate because why not"
 
-[[dependencies.examplemod]]
+[[dependencies.hotchocolate]]
 	modId="forge"
 	mandatory=true
 	versionRange="[39,)"
 	ordering="NONE"
 	side="BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.hotchocolate]]
 	modId="minecraft"
 	mandatory=true
 	versionRange="[1.18.1,1.19)"
