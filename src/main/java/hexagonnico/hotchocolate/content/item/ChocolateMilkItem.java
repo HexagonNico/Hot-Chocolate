@@ -3,6 +3,8 @@ package hexagonnico.hotchocolate.content.item;
 import java.util.List;
 
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffect;
@@ -48,6 +50,11 @@ public class ChocolateMilkItem extends Item {
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemStack) {
 		return UseAnim.DRINK;
+	}
+
+	@Override
+	public SoundEvent getEatingSound() {
+		return SoundEvents.GENERIC_DRINK;
 	}
 
 	@Override
