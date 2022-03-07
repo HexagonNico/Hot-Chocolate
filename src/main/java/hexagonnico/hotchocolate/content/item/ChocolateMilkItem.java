@@ -11,7 +11,6 @@ import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemUtils;
@@ -22,8 +21,6 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.fluids.capability.wrappers.FluidBucketWrapper;
 
 public class ChocolateMilkItem extends Item {
-
-	public static final FoodProperties FOOD_PROPERTIES = new FoodProperties.Builder().nutrition(4).saturationMod(0.3f).build();
 
 	public ChocolateMilkItem(Properties properties) {
 		super(properties);
