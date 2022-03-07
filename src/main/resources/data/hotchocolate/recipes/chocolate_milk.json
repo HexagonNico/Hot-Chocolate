@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"o",
+		"U"
+	],
+	"key": {
+		"o": {
+			"item": "minecraft:cocoa_beans"
+		},
+		"U": {
+			"item": "minecraft:milk_bucket"
+		}
+	},
+	"result": {
+		"item": "hotchocolate:chocolate_milk"
+	}
+}
